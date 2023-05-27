@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(45,45,45);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    background-color: white;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+
+.container h1{
+    background-color: white;
+}
+
+#numOfWords{
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 20px 0 0 20px;
+    border: 2px solid rgb(146, 144, 144);
+    outline: none;
+}
+
+button{
+    background-color: rgb(50, 49, 49) ;
+    color:white;
+    padding: 21.6px 20px;
+    border: none;
+    border-radius: 0 20px 20px 0 ;
+    margin-left: -5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover{
+    background-color: rgb(226, 100, 100);
+}
+
+.paras{
+    background-color: rgb(188, 186, 186);
+    padding: 20px;
+    margin-top: 1vmax;
+    border-radius: 8px;
+    word-spacing: 6px;
+}
+
